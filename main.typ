@@ -18,7 +18,7 @@
 
   referent: "Référent : Faculté de médecine",
   date_soutenance: "20 novembre 2024",
-  jury: ( // not yet implemented. To change the members of the jry, do so directly in lib.typ (line 191 to 199)
+  jury: ( 
     (
       name: "Prénom NOM",
       title: [Prof.],
@@ -30,7 +30,7 @@
         (
       name: "Prénom NOM",
       title: [Prof.],
-      affiliation: [Université de XXX, Suisse],
+      affiliation: [Université de XXX, Allemagne],
       role: [Rapportrice],
       email: "prenom.nom@university.com"
     ),
@@ -38,7 +38,7 @@
         (
       name: "Prénom NOM",
       title: [Prof.],
-      affiliation: [Université de XXX, Suisse],
+      affiliation: [Université de XXX, France],
       role: [Examinateur],
       email: "prenom.nom@university.com"
     ),
@@ -46,7 +46,7 @@
         (
       name: "Prénom NOM",
       title: [Prof.],
-      affiliation: [Université de XXX, Suisse],
+      affiliation: [Université de XXX, Italie],
       role: [Examinatrice],
       email: "prenom.nom@university.com"
     ),

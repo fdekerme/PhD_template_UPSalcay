@@ -178,18 +178,13 @@
   set text(black, size: 10pt)
   table(
     columns: (9cm, auto),
-    inset: 2pt,
+    inset: 4pt,
     align: (left, left),
     stroke: none,
     table.vline(stroke: Prune),
-    text(weight: "bold", " First Last"), [Rapporteur],
-    " Assoc. Prof., University A, City A", " ",
-    text(weight: "bold", " First Last"), [Rapportrice],
-    " Prof., University B, City B", " ",
-    text(weight: "bold", " First Last"), [Examinatrice],
-    " Assist Prof., University C, City C", " ",
-    text(weight: "bold", " First Last"), [Examinateur],
-    " Prof., University D, City D", " ",
+    ..jury.map(member => (
+  text(weight: "bold", member.name), member.role,
+  member.title + member.affiliation, [])).flatten()
   )
 
 
