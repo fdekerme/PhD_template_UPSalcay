@@ -3,14 +3,14 @@
 = Chapter 1
 <Chapter_1>
 
-/* #text(size: 14pt, weight: "medium")[Contents]
+#text(size: 14pt, weight: "medium")[Contents]
 #v(-20pt)
 #figure(block(width: 100%, stroke: (top: Prune, bottom: Prune),
 inset: 8pt,
 minitoc(indent: auto, fill: repeat(box(width: 1cm / 4, ".")))),   
 kind: "outline",
 supplement: none,
-outlined: false) */
+outlined: false) 
 
 #pagebreak()
 
