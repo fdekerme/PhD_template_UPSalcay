@@ -185,7 +185,7 @@
     ..jury.map(member => (
   text(weight: "bold", member.name), member.role,
   member.title + member.affiliation, [])).flatten()
-  )
+  ) // thanks to "flokl"for the piece of code: https://forum.typst.app/t/paris-saclay-phd-thesis-template/1886/2
 
 
   pagebreak()
